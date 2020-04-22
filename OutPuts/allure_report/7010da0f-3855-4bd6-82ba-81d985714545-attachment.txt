@@ -1,0 +1,15 @@
+ Fri, 06 Mar 2020 15:09:12  INFO test_01_home.py test_01_switch_type_success [ line:14 ] ******* 正常流程：分类、歌手、关于页签切换 *******
+ Fri, 06 Mar 2020 15:09:12  INFO basepage.py wait_ele_visible [ line:41 ] 点击歌手页签 : 等待<('-android uiautomator', 'new UiSelector().text("歌手")')>元素可见
+ Fri, 06 Mar 2020 15:09:18  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:12.248043,结束时间为:2020-03-06 15:09:18.889710,一共等待耗时为:0:00:06.641667
+ Fri, 06 Mar 2020 15:09:18  INFO basepage.py get_element [ line:95 ] 点击歌手页签 : 查找<('-android uiautomator', 'new UiSelector().text("歌手")')>元素.
+ Fri, 06 Mar 2020 15:09:19  INFO basepage.py click_element [ line:155 ] 点击歌手页签: 点击<('-android uiautomator', 'new UiSelector().text("歌手")')>元素 
+ Fri, 06 Mar 2020 15:09:22  INFO basepage.py wait_ele_visible [ line:41 ] 点击关于页签 : 等待<('-android uiautomator', 'new UiSelector().text("关于")')>元素可见
+ Fri, 06 Mar 2020 15:09:22  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:22.380014,结束时间为:2020-03-06 15:09:22.476836,一共等待耗时为:0:00:00.096822
+ Fri, 06 Mar 2020 15:09:22  INFO basepage.py get_element [ line:95 ] 点击关于页签 : 查找<('-android uiautomator', 'new UiSelector().text("关于")')>元素.
+ Fri, 06 Mar 2020 15:09:22  INFO basepage.py click_element [ line:155 ] 点击关于页签: 点击<('-android uiautomator', 'new UiSelector().text("关于")')>元素 
+ Fri, 06 Mar 2020 15:09:25  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Fri, 06 Mar 2020 15:09:25  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:25.749034,结束时间为:2020-03-06 15:09:25.841190,一共等待耗时为:0:00:00.092156
+ Fri, 06 Mar 2020 15:09:25  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Fri, 06 Mar 2020 15:09:25  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Fri, 06 Mar 2020 15:09:29  INFO basepage.py check_element_visible [ line:82 ] 分类元素是否存在: 检测元素<('-android uiautomator', 'new UiSelector().text("分类")')>存在且可见于页面。
+ Fri, 06 Mar 2020 15:09:29  INFO basepage.py check_element_visible [ line:90 ]  30秒内元素可见。

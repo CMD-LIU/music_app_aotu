@@ -1,0 +1,12 @@
+ Fri, 06 Mar 2020 15:09:39  INFO test_01_home.py test_03_songtype_success [ line:38 ] ******* 正常流程：选择歌曲类型：“欧美流行” *******
+ Fri, 06 Mar 2020 15:09:39  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
+ Fri, 06 Mar 2020 15:09:43  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Fri, 06 Mar 2020 15:09:46  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:43.233851,结束时间为:2020-03-06 15:09:46.632220,一共等待耗时为:0:00:03.398369
+ Fri, 06 Mar 2020 15:09:46  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Fri, 06 Mar 2020 15:09:46  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Fri, 06 Mar 2020 15:09:49  INFO home_page.py target_click [ line:56 ] 单手点击
+ Fri, 06 Mar 2020 15:09:50  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的标题 : 等待<('id', 'com.lz.smart.music:id/playing_list')>元素可见
+ Fri, 06 Mar 2020 15:09:51  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:50.201023,结束时间为:2020-03-06 15:09:51.876908,一共等待耗时为:0:00:01.675885
+ Fri, 06 Mar 2020 15:09:51  INFO basepage.py get_element [ line:95 ] 搜索的标题 : 查找<('id', 'com.lz.smart.music:id/playing_list')>元素.
+ Fri, 06 Mar 2020 15:09:52  INFO basepage.py get_element_text [ line:170 ] 搜索的标题: 获取<('id', 'com.lz.smart.music:id/playing_list')>元素的文本内容.
+ Fri, 06 Mar 2020 15:09:52  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为: 欧美流行

@@ -1,0 +1,8 @@
+ Fri, 06 Mar 2020 16:22:52  INFO test_01_home.py test_04_slipping_sucess [ line:51 ] ******* 正常流程：向右滑动，点击坑位“轻音乐”*******
+ Fri, 06 Mar 2020 16:22:52  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Fri, 06 Mar 2020 16:23:04  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 16:22:52.327899,结束时间为:2020-03-06 16:23:04.245153,一共等待耗时为:0:00:11.917254
+ Fri, 06 Mar 2020 16:23:04  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Fri, 06 Mar 2020 16:23:04  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Fri, 06 Mar 2020 16:23:07  INFO home_page.py Music_FangYe [ line:72 ] 开始向left方向滑动
+ Fri, 06 Mar 2020 16:23:07  ERROR home_page.py Music_FangYe [ line:88 ] 向left方向滑动屏幕失败！
+ Fri, 06 Mar 2020 16:23:12  INFO basepage.py save_page_screenshot [ line:269 ] 截取当前网页成功并存储在: F:\music_app_aotu\OutPuts\pageshots/向左滑动_2020-03-06 16_23_07.png

@@ -1,0 +1,8 @@
+ Fri, 06 Mar 2020 16:34:33  INFO test_01_home.py test_04_slipping_sucess [ line:51 ] ******* 正常流程：向右滑动，点击坑位“轻音乐”*******
+ Fri, 06 Mar 2020 16:34:33  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Fri, 06 Mar 2020 16:34:50  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 16:34:33.423515,结束时间为:2020-03-06 16:34:50.031039,一共等待耗时为:0:00:16.607524
+ Fri, 06 Mar 2020 16:34:50  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Fri, 06 Mar 2020 16:34:50  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Fri, 06 Mar 2020 16:34:53  INFO home_page.py Music_FangYe [ line:72 ] 开始向left方向滑动
+ Fri, 06 Mar 2020 16:34:53  INFO home_page.py target_click [ line:56 ] 单手点击
+ Fri, 06 Mar 2020 16:34:53  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的标题 : 等待<('id', 'com.lz.smart.music:id/playing_list')>元素可见

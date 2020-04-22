@@ -1,0 +1,58 @@
+ Tue, 14 Apr 2020 20:52:24  INFO TestHome.py test_01_auto_Search [ line:14 ] ******* 正常流程：搜索歌曲 *******
+ Tue, 14 Apr 2020 20:52:24  INFO basepage.py wait_ele_visible [ line:41 ] 搜索框输入 : 等待<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素可见
+ Tue, 14 Apr 2020 20:52:27  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:24.687945,结束时间为:2020-04-14 20:52:27.219001,一共等待耗时为:0:00:02.531056
+ Tue, 14 Apr 2020 20:52:27  INFO basepage.py get_element [ line:95 ] 搜索框输入 : 查找<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素.
+ Tue, 14 Apr 2020 20:52:27  INFO basepage.py input_text [ line:126 ] 搜索框输入: 对<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素输入文本 刘德华的忘情水
+ Tue, 14 Apr 2020 20:52:33  INFO basepage.py wait_ele_visible [ line:41 ] 点击搜索按钮 : 等待<('id', 'com.lz.smart.music:id/btn_start_search')>元素可见
+ Tue, 14 Apr 2020 20:52:34  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:33.702212,结束时间为:2020-04-14 20:52:34.248412,一共等待耗时为:0:00:00.546200
+ Tue, 14 Apr 2020 20:52:34  INFO basepage.py get_element [ line:95 ] 点击搜索按钮 : 查找<('id', 'com.lz.smart.music:id/btn_start_search')>元素.
+ Tue, 14 Apr 2020 20:52:34  INFO basepage.py click_element [ line:155 ] 点击搜索按钮: 点击<('id', 'com.lz.smart.music:id/btn_start_search')>元素 
+ Tue, 14 Apr 2020 20:52:35  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待<('id', 'com.lz.smart.music:id/item_song_btn')>元素可见
+ Tue, 14 Apr 2020 20:52:36  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:35.473465,结束时间为:2020-04-14 20:52:36.975516,一共等待耗时为:0:00:01.502051
+ Tue, 14 Apr 2020 20:52:36  INFO basepage.py get_element [ line:95 ] 搜索的内容 : 查找<('id', 'com.lz.smart.music:id/item_song_btn')>元素.
+ Tue, 14 Apr 2020 20:52:37  INFO basepage.py get_element_text [ line:170 ] 搜索的内容: 获取<('id', 'com.lz.smart.music:id/item_song_btn')>元素的文本内容.
+ Tue, 14 Apr 2020 20:52:37  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为:   忘情水-刘德华
+ Tue, 14 Apr 2020 20:52:37  INFO TestHome.py test_01_auto_Search [ line:21 ] 相似率为：0.75
+ Tue, 14 Apr 2020 20:52:37  INFO TestHome.py test_02_auto_Search [ line:24 ] ******* 正常流程：搜索歌手 *******
+ Tue, 14 Apr 2020 20:52:37  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
+ Tue, 14 Apr 2020 20:52:40  INFO basepage.py wait_ele_visible [ line:41 ] 搜索框输入 : 等待<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素可见
+ Tue, 14 Apr 2020 20:52:43  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:40.331726,结束时间为:2020-04-14 20:52:43.538706,一共等待耗时为:0:00:03.206980
+ Tue, 14 Apr 2020 20:52:43  INFO basepage.py get_element [ line:95 ] 搜索框输入 : 查找<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素.
+ Tue, 14 Apr 2020 20:52:43  INFO basepage.py input_text [ line:126 ] 搜索框输入: 对<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素输入文本 周杰伦
+ Tue, 14 Apr 2020 20:52:49  INFO basepage.py wait_ele_visible [ line:41 ] 点击搜索按钮 : 等待<('id', 'com.lz.smart.music:id/btn_start_search')>元素可见
+ Tue, 14 Apr 2020 20:52:49  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:49.208475,结束时间为:2020-04-14 20:52:49.758571,一共等待耗时为:0:00:00.550096
+ Tue, 14 Apr 2020 20:52:49  INFO basepage.py get_element [ line:95 ] 点击搜索按钮 : 查找<('id', 'com.lz.smart.music:id/btn_start_search')>元素.
+ Tue, 14 Apr 2020 20:52:49  INFO basepage.py click_element [ line:155 ] 点击搜索按钮: 点击<('id', 'com.lz.smart.music:id/btn_start_search')>元素 
+ Tue, 14 Apr 2020 20:52:51  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待<('id', 'com.lz.smart.music:id/item_song_btn')>元素可见
+ Tue, 14 Apr 2020 20:52:53  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:51.024586,结束时间为:2020-04-14 20:52:53.117706,一共等待耗时为:0:00:02.093120
+ Tue, 14 Apr 2020 20:52:53  INFO basepage.py get_element [ line:95 ] 搜索的内容 : 查找<('id', 'com.lz.smart.music:id/item_song_btn')>元素.
+ Tue, 14 Apr 2020 20:52:53  INFO basepage.py get_element_text [ line:170 ] 搜索的内容: 获取<('id', 'com.lz.smart.music:id/item_song_btn')>元素的文本内容.
+ Tue, 14 Apr 2020 20:52:53  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为:   告白气球
+ Tue, 14 Apr 2020 20:52:53  INFO TestHome.py test_03_auto_Table [ line:33 ] ******* 正常流程：分类、歌手、关于页签切换 *******
+ Tue, 14 Apr 2020 20:52:53  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
+ Tue, 14 Apr 2020 20:52:56  INFO basepage.py wait_ele_visible [ line:41 ] 点击歌手页签 : 等待<('-android uiautomator', 'new UiSelector().text("歌手")')>元素可见
+ Tue, 14 Apr 2020 20:53:00  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:52:56.921607,结束时间为:2020-04-14 20:53:00.129561,一共等待耗时为:0:00:03.207954
+ Tue, 14 Apr 2020 20:53:00  INFO basepage.py get_element [ line:95 ] 点击歌手页签 : 查找<('-android uiautomator', 'new UiSelector().text("歌手")')>元素.
+ Tue, 14 Apr 2020 20:53:00  INFO basepage.py click_element [ line:155 ] 点击歌手页签: 点击<('-android uiautomator', 'new UiSelector().text("歌手")')>元素 
+ Tue, 14 Apr 2020 20:53:05  INFO basepage.py wait_ele_visible [ line:41 ] 点击关于页签 : 等待<('-android uiautomator', 'new UiSelector().text("关于")')>元素可见
+ Tue, 14 Apr 2020 20:53:05  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:53:05.404303,结束时间为:2020-04-14 20:53:05.495986,一共等待耗时为:0:00:00.091683
+ Tue, 14 Apr 2020 20:53:05  INFO basepage.py get_element [ line:95 ] 点击关于页签 : 查找<('-android uiautomator', 'new UiSelector().text("关于")')>元素.
+ Tue, 14 Apr 2020 20:53:05  INFO basepage.py click_element [ line:155 ] 点击关于页签: 点击<('-android uiautomator', 'new UiSelector().text("关于")')>元素 
+ Tue, 14 Apr 2020 20:53:08  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Tue, 14 Apr 2020 20:53:08  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:53:08.750759,结束时间为:2020-04-14 20:53:08.838542,一共等待耗时为:0:00:00.087783
+ Tue, 14 Apr 2020 20:53:08  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Tue, 14 Apr 2020 20:53:08  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Tue, 14 Apr 2020 20:53:12  INFO basepage.py check_element_visible [ line:82 ] 分类元素是否存在: 检测元素<('-android uiautomator', 'new UiSelector().text("分类")')>存在且可见于页面。
+ Tue, 14 Apr 2020 20:53:12  INFO basepage.py check_element_visible [ line:90 ]  30秒内元素可见。
+ Tue, 14 Apr 2020 20:53:12  INFO TestHome.py test_04_auto_Position [ line:50 ] ******* 正常流程：选择歌曲类型：“欧美流行” *******
+ Tue, 14 Apr 2020 20:53:12  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
+ Tue, 14 Apr 2020 20:53:15  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Tue, 14 Apr 2020 20:53:18  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:53:15.132533,结束时间为:2020-04-14 20:53:18.522881,一共等待耗时为:0:00:03.390348
+ Tue, 14 Apr 2020 20:53:18  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Tue, 14 Apr 2020 20:53:18  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Tue, 14 Apr 2020 20:53:21  INFO HomePage.py target_click [ line:56 ] 单手点击
+ Tue, 14 Apr 2020 20:53:22  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的标题 : 等待<('id', 'com.lz.smart.music:id/playing_list')>元素可见
+ Tue, 14 Apr 2020 20:53:24  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:53:22.043926,结束时间为:2020-04-14 20:53:24.337970,一共等待耗时为:0:00:02.294044
+ Tue, 14 Apr 2020 20:53:24  INFO basepage.py get_element [ line:95 ] 搜索的标题 : 查找<('id', 'com.lz.smart.music:id/playing_list')>元素.
+ Tue, 14 Apr 2020 20:53:24  INFO basepage.py get_element_text [ line:170 ] 搜索的标题: 获取<('id', 'com.lz.smart.music:id/playing_list')>元素的文本内容.
+ Tue, 14 Apr 2020 20:53:24  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为: 欧美流行

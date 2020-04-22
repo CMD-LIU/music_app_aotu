@@ -1,0 +1,17 @@
+ Fri, 06 Mar 2020 16:35:35  INFO test_01_home.py test_04_slipping_sucess [ line:51 ] ******* 正常流程：向右滑动，点击坑位“轻音乐”*******
+ Fri, 06 Mar 2020 16:35:35  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Fri, 06 Mar 2020 16:35:43  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 16:35:35.548561,结束时间为:2020-03-06 16:35:43.872350,一共等待耗时为:0:00:08.323789
+ Fri, 06 Mar 2020 16:35:43  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Fri, 06 Mar 2020 16:35:43  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Fri, 06 Mar 2020 16:35:47  INFO home_page.py Music_FangYe [ line:72 ] 开始向left方向滑动
+ Fri, 06 Mar 2020 16:35:47  INFO home_page.py target_click [ line:56 ] 单手点击
+ Fri, 06 Mar 2020 16:35:47  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的标题 : 等待<('id', 'com.lz.smart.music:id/playing_list')>元素可见
+ Fri, 06 Mar 2020 16:36:18  ERROR basepage.py wait_ele_visible [ line:48 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "F:\music_app_aotu\Common\basepage.py", line 45, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.visibility_of_element_located(locator))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 06 Mar 2020 16:36:23  INFO basepage.py save_page_screenshot [ line:269 ] 截取当前网页成功并存储在: F:\music_app_aotu\OutPuts\pageshots/搜索的标题_2020-03-06 16_36_18.png

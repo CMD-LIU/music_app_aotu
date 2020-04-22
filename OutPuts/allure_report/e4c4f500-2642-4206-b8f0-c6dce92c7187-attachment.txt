@@ -1,0 +1,26 @@
+INFO     root:test_02_songplay.py:13 ******* 正常流程：选择歌曲类型：“欧美流行” *******
+INFO     root:basepage.py:41 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:09.221277,结束时间为:2020-03-06 15:10:12.247827,一共等待耗时为:0:00:03.026550
+INFO     root:basepage.py:95 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+INFO     root:basepage.py:155 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+INFO     root:home_page.py:56 单手点击
+INFO     root:basepage.py:41 搜索的内容 : 等待<('id', 'com.lz.smart.music:id/item_song_btn')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:15.999628,结束时间为:2020-03-06 15:10:17.788069,一共等待耗时为:0:00:01.788441
+INFO     root:basepage.py:95 搜索的内容 : 查找<('id', 'com.lz.smart.music:id/item_song_btn')>元素.
+INFO     root:basepage.py:170 搜索的内容: 获取<('id', 'com.lz.smart.music:id/item_song_btn')>元素的文本内容.
+INFO     root:basepage.py:180 获取的文本值为:   There's Nothing Holdin' Me Back-Shawn Mendes
+INFO     root:basepage.py:41 点击收藏按钮 : 等待<('id', 'com.lz.smart.music:id/music_collect_btn')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:17.970999,结束时间为:2020-03-06 15:10:18.144942,一共等待耗时为:0:00:00.173943
+INFO     root:basepage.py:95 点击收藏按钮 : 查找<('id', 'com.lz.smart.music:id/music_collect_btn')>元素.
+INFO     root:basepage.py:155 点击收藏按钮: 点击<('id', 'com.lz.smart.music:id/music_collect_btn')>元素 
+INFO     root:basepage.py:507 切换应用到com.lz.smart.music
+INFO     root:basepage.py:41 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:25.101994,结束时间为:2020-03-06 15:10:28.119543,一共等待耗时为:0:00:03.017549
+INFO     root:basepage.py:95 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+INFO     root:basepage.py:155 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+INFO     root:home_page.py:56 单手点击
+INFO     root:basepage.py:41 搜索的内容 : 等待<('id', 'com.lz.smart.music:id/item_song_btn')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:31.733718,结束时间为:2020-03-06 15:10:33.129891,一共等待耗时为:0:00:01.396173
+INFO     root:basepage.py:95 搜索的内容 : 查找<('id', 'com.lz.smart.music:id/item_song_btn')>元素.
+INFO     root:basepage.py:170 搜索的内容: 获取<('id', 'com.lz.smart.music:id/item_song_btn')>元素的文本内容.
+INFO     root:basepage.py:180 获取的文本值为:   There's Nothing Holdin' Me Back-Shawn Mendes

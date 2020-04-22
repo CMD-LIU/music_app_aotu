@@ -1,0 +1,12 @@
+INFO     root:test_01_home.py:38 ******* 正常流程：选择歌曲类型：“欧美流行” *******
+INFO     root:basepage.py:507 切换应用到com.lz.smart.music
+INFO     root:basepage.py:41 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:43.233851,结束时间为:2020-03-06 15:09:46.632220,一共等待耗时为:0:00:03.398369
+INFO     root:basepage.py:95 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+INFO     root:basepage.py:155 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+INFO     root:home_page.py:56 单手点击
+INFO     root:basepage.py:41 搜索的标题 : 等待<('id', 'com.lz.smart.music:id/playing_list')>元素可见
+INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:50.201023,结束时间为:2020-03-06 15:09:51.876908,一共等待耗时为:0:00:01.675885
+INFO     root:basepage.py:95 搜索的标题 : 查找<('id', 'com.lz.smart.music:id/playing_list')>元素.
+INFO     root:basepage.py:170 搜索的标题: 获取<('id', 'com.lz.smart.music:id/playing_list')>元素的文本内容.
+INFO     root:basepage.py:180 获取的文本值为: 欧美流行

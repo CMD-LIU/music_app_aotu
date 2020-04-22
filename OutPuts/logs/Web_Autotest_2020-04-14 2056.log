@@ -1,0 +1,10 @@
+ Tue, 14 Apr 2020 20:57:02  INFO TestHome.py test_01_auto_Search [ line:14 ] ******* 正常流程：搜索歌曲 *******
+ Tue, 14 Apr 2020 20:57:02  INFO basepage.py wait_ele_visible [ line:41 ] 搜索框输入 : 等待<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素可见
+ Tue, 14 Apr 2020 20:57:05  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:57:02.443830,结束时间为:2020-04-14 20:57:05.005130,一共等待耗时为:0:00:02.561300
+ Tue, 14 Apr 2020 20:57:05  INFO basepage.py get_element [ line:95 ] 搜索框输入 : 查找<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素.
+ Tue, 14 Apr 2020 20:57:05  INFO basepage.py input_text [ line:126 ] 搜索框输入: 对<('id', 'com.lz.smart.music:id/edt_searchinfo')>元素输入文本 刘德华的忘情水
+ Tue, 14 Apr 2020 20:57:10  INFO basepage.py wait_ele_visible [ line:41 ] 点击搜索按钮 : 等待<('id', 'com.lz.smart.music:id/btn_start_search')>元素可见
+ Tue, 14 Apr 2020 20:57:11  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 20:57:10.921650,结束时间为:2020-04-14 20:57:11.530273,一共等待耗时为:0:00:00.608623
+ Tue, 14 Apr 2020 20:57:11  INFO basepage.py get_element [ line:95 ] 点击搜索按钮 : 查找<('id', 'com.lz.smart.music:id/btn_start_search')>元素.
+ Tue, 14 Apr 2020 20:57:11  INFO basepage.py click_element [ line:155 ] 点击搜索按钮: 点击<('id', 'com.lz.smart.music:id/btn_start_search')>元素 
+ Tue, 14 Apr 2020 20:57:14  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待<('id', 'com.lz.smart.music:id/item_song_btn')>元素可见

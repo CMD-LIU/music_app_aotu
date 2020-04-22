@@ -1,0 +1,20 @@
+ Tue, 14 Apr 2020 17:09:32  INFO TestSongPage.py test_07_auto_Forward [ line:31 ] ******* 快进功能 *******
+ Tue, 14 Apr 2020 17:09:32  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待<('-android uiautomator', 'new UiSelector().text("分类")')>元素可见
+ Tue, 14 Apr 2020 17:09:35  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 17:09:32.954953,结束时间为:2020-04-14 17:09:35.532827,一共等待耗时为:0:00:02.577874
+ Tue, 14 Apr 2020 17:09:35  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找<('-android uiautomator', 'new UiSelector().text("分类")')>元素.
+ Tue, 14 Apr 2020 17:09:35  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击<('-android uiautomator', 'new UiSelector().text("分类")')>元素 
+ Tue, 14 Apr 2020 17:09:38  INFO HomePage.py target_click [ line:56 ] 单手点击
+ Tue, 14 Apr 2020 17:09:39  INFO basepage.py wait_ele_visible [ line:41 ] 音乐播放时间 : 等待<('id', 'com.lz.smart.music:id/music_time')>元素可见
+ Tue, 14 Apr 2020 17:09:40  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 17:09:39.080208,结束时间为:2020-04-14 17:09:40.808544,一共等待耗时为:0:00:01.728336
+ Tue, 14 Apr 2020 17:09:40  INFO basepage.py get_element [ line:95 ] 音乐播放时间 : 查找<('id', 'com.lz.smart.music:id/music_time')>元素.
+ Tue, 14 Apr 2020 17:09:40  INFO basepage.py get_element_text [ line:170 ] 音乐播放时间: 获取<('id', 'com.lz.smart.music:id/music_time')>元素的文本内容.
+ Tue, 14 Apr 2020 17:09:41  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为: 
+ Tue, 14 Apr 2020 17:09:41  INFO basepage.py wait_ele_visible [ line:41 ] 点击快进按钮 : 等待<('id', 'com.lz.smart.music:id/music_forward_btn')>元素可见
+ Tue, 14 Apr 2020 17:09:41  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 17:09:41.088472,结束时间为:2020-04-14 17:09:41.330360,一共等待耗时为:0:00:00.241888
+ Tue, 14 Apr 2020 17:09:41  INFO basepage.py get_element [ line:95 ] 点击快进按钮 : 查找<('id', 'com.lz.smart.music:id/music_forward_btn')>元素.
+ Tue, 14 Apr 2020 17:09:41  INFO basepage.py click_element [ line:155 ] 点击快进按钮: 点击<('id', 'com.lz.smart.music:id/music_forward_btn')>元素 
+ Tue, 14 Apr 2020 17:09:44  INFO basepage.py wait_ele_visible [ line:41 ] 音乐播放时间 : 等待<('id', 'com.lz.smart.music:id/music_time')>元素可见
+ Tue, 14 Apr 2020 17:09:45  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-04-14 17:09:44.692423,结束时间为:2020-04-14 17:09:45.030873,一共等待耗时为:0:00:00.338450
+ Tue, 14 Apr 2020 17:09:45  INFO basepage.py get_element [ line:95 ] 音乐播放时间 : 查找<('id', 'com.lz.smart.music:id/music_time')>元素.
+ Tue, 14 Apr 2020 17:09:45  INFO basepage.py get_element_text [ line:170 ] 音乐播放时间: 获取<('id', 'com.lz.smart.music:id/music_time')>元素的文本内容.
+ Tue, 14 Apr 2020 17:09:45  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为: 

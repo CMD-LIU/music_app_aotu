@@ -1,0 +1,7 @@
+autmationName: UiAutomator2
+platformName: Android
+platfromVersion: 4.4.4
+deviceName: 192.168.30.100:5555
+appPackage: com.lz.smart.music
+appActivity: com.lz.smart.activity.MainActivity
+noReset: True
