@@ -12,7 +12,7 @@ from PageObjects.SongplayPage import SongplayPage
 *维护人：
 *修改内容：无
 *Apk版本描述：V2.512
-*元素定位优先级：ID定位>name定位>class name定位>Accessibility ID定位>android uiautomator定位>XPath定位
+*元素定位优先级：ID定位>class name定位>Accessibility ID定位>android uiautomator定位>XPath定位
 *修改日期：
 """
 @pytest.mark.usefixtures("init_app")
@@ -46,7 +46,7 @@ class Test_Position:
         # 断言：最后是切换到分类页签
         assert HomePage(init_app).check_classify_type_loc_exit() is True
 
-    # def test_04_slipping_sucess(self,init_app):
+    # def test_03_slipping_sucess(self,init_app):
     #     logging.info("******* 正常流程：向右滑动，点击坑位“轻音乐”*******")
     #     HomePage(init_app).click_main_type("分类")
     #     HomePage(init_app).Music_FangYe("left","向左滑动")

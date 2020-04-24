@@ -5,9 +5,10 @@ from PageLocators.HomePageLoc import HomePageLoc as loc
 
 class HomePage(BasePage):
 
-    # 切换页签
+
     def click_main_type(self, main_type_name):
         """
+        切换页签
         :param main_type_name: 页签名称，分别为：分类、歌手、关于
         :return: None
         """
@@ -20,9 +21,12 @@ class HomePage(BasePage):
         else:
             logging.ERROR("没有该页签！")
 
-    # 分类元素是否存在
+    # 判断分类元素的存在
     def check_classify_type_loc_exit(self):
-        return self.check_element_visible(loc.classify_type_loc, "分类元素是否存在")
+        """
+        :return:
+        """
+        return self.check_element_visible(loc.classify_type_loc, "判断分类元素的存在")
 
     # 搜索歌曲或歌手
     def click_search_singer_song(self, context):

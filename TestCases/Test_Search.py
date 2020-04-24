@@ -12,7 +12,7 @@ from PageObjects.SongplayPage import SongplayPage
 *维护人：
 *修改内容：无
 *Apk版本描述：V2.512
-*元素定位优先级：ID定位>name定位>class name定位>Accessibility ID定位>android uiautomator定位>XPath定位
+*元素定位优先级：ID定位>class name定位>Accessibility ID定位>android uiautomator定位>XPath定位
 *修改日期：
 """
 @pytest.mark.usefixtures("init_app")
