@@ -25,8 +25,10 @@ class SongplayPage(BasePage):
     def click_backward_button(self):
         self.click_element(loc.song_backward_loc, "点击快退按钮")
 
-    # 获取歌曲播放的音乐时间
+    # 获取歌曲播放的音乐时间class属性
     def search_song_MusicTime(self):
-        return self.get_element_text(loc.song_MusicTime_loc, "音乐播放时间")
+         return self.get_element_attribute(loc.song_MusicTime_loc,"className", "音乐播放时间")
+
+
 
 

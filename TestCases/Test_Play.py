@@ -28,3 +28,11 @@ class Test_Collect:
         SongplayPage(init_app).click_forward_button()
         # 获取快进后的播放时间
         after_time = SongplayPage(init_app).search_song_MusicTime()
+
+    def test_02_auto_Forward(self, init_app):
+        logging.info("******* 快进功能 *******")
+        HomePage(init_app).click_main_type("分类")
+        HomePage(init_app).target_click(981, 239, 1167, 435, "选择歌曲类型为欧美音乐")
+        a = SongplayPage(init_app).search_song_MusicTime()
+        print(a)
+
