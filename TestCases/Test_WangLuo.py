@@ -3,23 +3,23 @@ import time
 import logging
 import difflib
 
-from PageObjects.HomePage import HomePage
+from PageObjects.NetworkSetingPage import HomePage
 from PageObjects.SongplayPage import SongplayPage
 
 """
-*用例设计人：刘权威
-*脚本编写人：刘权威
+*用例设计人：lqw
+*脚本编写人：lqw
 *维护人：
 *修改内容：无
 *Apk版本描述：V2.512
-*元素定位优先级：ID定位>class name定位>Accessibility ID定位>android uiautomator定位>XPath定位
+*元素定位优先级：ID > class name>Accessibility ID > android uiautomator > XPath
 *修改日期：
 """
 @pytest.mark.usefixtures("init_app")
 class Test_Collect:
 
-    def test_01_Collect(self, init_app):
-        logging.info("******* 收藏功能 *******")
+    def test_01_WangLuo(self, init_app):
+        logging.info("******* 有线连接 *******")
         # 切换到分类页签
         HomePage(init_app).click_main_type("分类")
         # 进入欧美流行

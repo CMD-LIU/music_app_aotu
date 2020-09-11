@@ -3,12 +3,12 @@ import time
 import logging
 import difflib
 
-from PageObjects.HomePage import HomePage
+from PageObjects.NetworkSetingPage import HomePage
 from PageObjects.SongplayPage import SongplayPage
 
 """
-*用例设计人：刘权威
-*脚本编写人：刘权威
+*用例设计人：lqw
+*脚本编写人：lqw
 *维护人：
 *修改内容：无
 *Apk版本描述：V2.512
@@ -46,10 +46,10 @@ class Test_Position:
         # 断言：最后是切换到分类页签
         assert HomePage(init_app).check_classify_type_loc_exit() is True
 
-    def test_03_slipping_sucess(self,init_app):
-        logging.info("******* 正常流程：向右滑动，点击坑位“轻音乐”*******")
-        HomePage(init_app).click_main_type("分类")
-        HomePage(init_app).Music_FangYe("left","向左滑动")
-        HomePage(init_app).target_click(823,239,1009,435, "选择歌曲类型为轻音乐")
-        song_context = SongplayPage(init_app).search_song_list()
-        assert "轻音乐" == song_context
+    # def test_03_slipping_sucess(self,init_app):
+    #     logging.info("******* 正常流程：向右滑动，点击坑位“轻音乐”*******")
+    #     HomePage(init_app).click_main_type("分类")
+    #     HomePage(init_app).Music_FangYe("left","向左滑动")
+    #     HomePage(init_app).target_click(823,239,1009,435, "选择歌曲类型为轻音乐")
+    #     song_context = SongplayPage(init_app).search_song_list()
+    #     assert "轻音乐" == song_context

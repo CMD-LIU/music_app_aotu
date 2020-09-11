@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>result.html</h1>
-    <p>Report generated on 06-Mar-2020 at 15:10:34 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
+    <p>Report generated on 10-Aug-2020 at 20:49:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -260,8 +260,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.2</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 96.84 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>0 tests ran in 1.06 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">3 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -272,174 +272,30 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_01_home.py::TestHome::test_01_switch_type_success</td>
-          <td class="col-duration">16.96</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">TestCases/Test_Collect.py::collect</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/> Fri, 06 Mar 2020 15:09:12  INFO test_01_home.py test_01_switch_type_success [ line:14 ] ******* 正常流程：分类、歌手、关于页签切换 *******
- Fri, 06 Mar 2020 15:09:12  INFO basepage.py wait_ele_visible [ line:41 ] 点击歌手页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:18  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:12.248043,结束时间为:2020-03-06 15:09:18.889710,一共等待耗时为:0:00:06.641667
- Fri, 06 Mar 2020 15:09:18  INFO basepage.py get_element [ line:95 ] 点击歌手页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:19  INFO basepage.py click_element [ line:155 ] 点击歌手页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:09:22  INFO basepage.py wait_ele_visible [ line:41 ] 点击关于页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:22  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:22.380014,结束时间为:2020-03-06 15:09:22.476836,一共等待耗时为:0:00:00.096822
- Fri, 06 Mar 2020 15:09:22  INFO basepage.py get_element [ line:95 ] 点击关于页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:22  INFO basepage.py click_element [ line:155 ] 点击关于页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:09:25  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:25  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:25.749034,结束时间为:2020-03-06 15:09:25.841190,一共等待耗时为:0:00:00.092156
- Fri, 06 Mar 2020 15:09:25  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:25  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py check_element_visible [ line:82 ] 分类元素是否存在: 检测元素&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;存在且可见于页面。
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py check_element_visible [ line:90 ]  30秒内元素可见。
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_01_home.py:14 ******* 正常流程：分类、歌手、关于页签切换 *******
-INFO     root:basepage.py:41 点击歌手页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:12.248043,结束时间为:2020-03-06 15:09:18.889710,一共等待耗时为:0:00:06.641667
-INFO     root:basepage.py:95 点击歌手页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击歌手页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;歌手&quot;)&#x27;)&gt;元素 
-INFO     root:basepage.py:41 点击关于页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:22.380014,结束时间为:2020-03-06 15:09:22.476836,一共等待耗时为:0:00:00.096822
-INFO     root:basepage.py:95 点击关于页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击关于页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;关于&quot;)&#x27;)&gt;元素 
-INFO     root:basepage.py:41 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:25.749034,结束时间为:2020-03-06 15:09:25.841190,一共等待耗时为:0:00:00.092156
-INFO     root:basepage.py:95 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
-INFO     root:basepage.py:82 分类元素是否存在: 检测元素&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;存在且可见于页面。
-INFO     root:basepage.py:90  30秒内元素可见。<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+            <div class="log">ImportError while importing test module &#x27;F:\工程样机\07 自动化框架设计\代码\setting_app_auto\TestCases\Test_Collect.py&#x27;.<br/>Hint: make sure your test modules/packages have valid Python names.<br/>Traceback:<br/>TestCases\Test_Collect.py:6: in &lt;module&gt;<br/>    from PageObjects.HomePage import HomePage<br/>PageObjects\HomePage.py:3: in &lt;module&gt;<br/>    from PageLocators.WangLuoLoc import HomePageLoc as loc<br/><span class="error">E   ImportError: cannot import name &#x27;HomePageLoc&#x27; from &#x27;PageLocators.WangLuoLoc&#x27; (F:\工程样机\07 自动化框架设计\代码\setting_app_auto\PageLocators\WangLuoLoc.py)</span><br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_01_home.py::TestHome::test_02_search_success</td>
-          <td class="col-duration">10.52</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">TestCases/Test_Position.py::collect</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/> Fri, 06 Mar 2020 15:09:29  INFO test_01_home.py test_02_search_success [ line:28 ] ******* 正常流程：搜索歌曲 *******
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py wait_ele_visible [ line:41 ] 搜索框输入 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:29.220198,结束时间为:2020-03-06 15:09:29.315166,一共等待耗时为:0:00:00.094968
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py get_element [ line:95 ] 搜索框输入 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:29  INFO basepage.py input_text [ line:126 ] 搜索框输入: 对&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素输入文本 刘德华的忘情水
- Fri, 06 Mar 2020 15:09:36  INFO basepage.py wait_ele_visible [ line:41 ] 点击搜索按钮 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:36  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:36.105764,结束时间为:2020-03-06 15:09:36.688036,一共等待耗时为:0:00:00.582272
- Fri, 06 Mar 2020 15:09:36  INFO basepage.py get_element [ line:95 ] 点击搜索按钮 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:36  INFO basepage.py click_element [ line:155 ] 点击搜索按钮: 点击&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:09:37  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:39  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:37.881191,结束时间为:2020-03-06 15:09:39.558085,一共等待耗时为:0:00:01.676894
- Fri, 06 Mar 2020 15:09:39  INFO basepage.py get_element [ line:95 ] 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:39  INFO basepage.py get_element_text [ line:170 ] 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
- Fri, 06 Mar 2020 15:09:39  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为:   忘情水-刘德华
- Fri, 06 Mar 2020 15:09:39  INFO test_01_home.py test_02_search_success [ line:35 ] 相似率为：0.75
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_01_home.py:28 ******* 正常流程：搜索歌曲 *******
-INFO     root:basepage.py:41 搜索框输入 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:29.220198,结束时间为:2020-03-06 15:09:29.315166,一共等待耗时为:0:00:00.094968
-INFO     root:basepage.py:95 搜索框输入 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素.
-INFO     root:basepage.py:126 搜索框输入: 对&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/edt_searchinfo&#x27;)&gt;元素输入文本 刘德华的忘情水
-INFO     root:basepage.py:41 点击搜索按钮 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:36.105764,结束时间为:2020-03-06 15:09:36.688036,一共等待耗时为:0:00:00.582272
-INFO     root:basepage.py:95 点击搜索按钮 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击搜索按钮: 点击&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/btn_start_search&#x27;)&gt;元素 
-INFO     root:basepage.py:41 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:37.881191,结束时间为:2020-03-06 15:09:39.558085,一共等待耗时为:0:00:01.676894
-INFO     root:basepage.py:95 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
-INFO     root:basepage.py:170 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
-INFO     root:basepage.py:180 获取的文本值为:   忘情水-刘德华
-INFO     root:test_01_home.py:35 相似率为：0.75<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+            <div class="log">ImportError while importing test module &#x27;F:\工程样机\07 自动化框架设计\代码\setting_app_auto\TestCases\Test_Position.py&#x27;.<br/>Hint: make sure your test modules/packages have valid Python names.<br/>Traceback:<br/>TestCases\Test_Position.py:6: in &lt;module&gt;<br/>    from PageObjects.HomePage import HomePage<br/>PageObjects\HomePage.py:3: in &lt;module&gt;<br/>    from PageLocators.WangLuoLoc import HomePageLoc as loc<br/><span class="error">E   ImportError: cannot import name &#x27;HomePageLoc&#x27; from &#x27;PageLocators.WangLuoLoc&#x27; (F:\工程样机\07 自动化框架设计\代码\setting_app_auto\PageLocators\WangLuoLoc.py)</span><br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_01_home.py::TestHome::test_03_songtype_success</td>
-          <td class="col-duration">13.07</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">TestCases/Test_Search.py::collect</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>1074.0 337.0
-<br/> ------------------------------Captured stderr call------------------------------ <br/> Fri, 06 Mar 2020 15:09:39  INFO test_01_home.py test_03_songtype_success [ line:38 ] ******* 正常流程：选择歌曲类型：“欧美流行” *******
- Fri, 06 Mar 2020 15:09:39  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
- Fri, 06 Mar 2020 15:09:43  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:46  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:43.233851,结束时间为:2020-03-06 15:09:46.632220,一共等待耗时为:0:00:03.398369
- Fri, 06 Mar 2020 15:09:46  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:46  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:09:49  INFO home_page.py target_click [ line:56 ] 单手点击
- Fri, 06 Mar 2020 15:09:50  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的标题 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:09:51  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:09:50.201023,结束时间为:2020-03-06 15:09:51.876908,一共等待耗时为:0:00:01.675885
- Fri, 06 Mar 2020 15:09:51  INFO basepage.py get_element [ line:95 ] 搜索的标题 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:09:52  INFO basepage.py get_element_text [ line:170 ] 搜索的标题: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素的文本内容.
- Fri, 06 Mar 2020 15:09:52  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为: 欧美流行
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_01_home.py:38 ******* 正常流程：选择歌曲类型：“欧美流行” *******
-INFO     root:basepage.py:507 切换应用到com.lz.smart.music
-INFO     root:basepage.py:41 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:43.233851,结束时间为:2020-03-06 15:09:46.632220,一共等待耗时为:0:00:03.398369
-INFO     root:basepage.py:95 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
-INFO     root:home_page.py:56 单手点击
-INFO     root:basepage.py:41 搜索的标题 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:09:50.201023,结束时间为:2020-03-06 15:09:51.876908,一共等待耗时为:0:00:01.675885
-INFO     root:basepage.py:95 搜索的标题 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素.
-INFO     root:basepage.py:170 搜索的标题: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/playing_list&#x27;)&gt;元素的文本内容.
-INFO     root:basepage.py:180 获取的文本值为: 欧美流行<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_02_songplay.py::TestSongpage::test_01_shouchang_sucess</td>
-          <td class="col-duration">24.10</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>1074.0 337.0
-228.0 337.0
-<br/> ------------------------------Captured stderr call------------------------------ <br/> Fri, 06 Mar 2020 15:10:09  INFO test_02_songplay.py test_01_shouchang_sucess [ line:13 ] ******* 正常流程：选择歌曲类型：“欧美流行” *******
- Fri, 06 Mar 2020 15:10:09  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:10:12  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:10:09.221277,结束时间为:2020-03-06 15:10:12.247827,一共等待耗时为:0:00:03.026550
- Fri, 06 Mar 2020 15:10:12  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:10:12  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:10:15  INFO home_page.py target_click [ line:56 ] 单手点击
- Fri, 06 Mar 2020 15:10:15  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:10:17  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:10:15.999628,结束时间为:2020-03-06 15:10:17.788069,一共等待耗时为:0:00:01.788441
- Fri, 06 Mar 2020 15:10:17  INFO basepage.py get_element [ line:95 ] 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:10:17  INFO basepage.py get_element_text [ line:170 ] 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
- Fri, 06 Mar 2020 15:10:17  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为:   There&#x27;s Nothing Holdin&#x27; Me Back-Shawn Mendes
- Fri, 06 Mar 2020 15:10:17  INFO basepage.py wait_ele_visible [ line:41 ] 点击收藏按钮 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:10:18  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:10:17.970999,结束时间为:2020-03-06 15:10:18.144942,一共等待耗时为:0:00:00.173943
- Fri, 06 Mar 2020 15:10:18  INFO basepage.py get_element [ line:95 ] 点击收藏按钮 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:10:18  INFO basepage.py click_element [ line:155 ] 点击收藏按钮: 点击&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:10:21  INFO basepage.py application_switching [ line:507 ] 切换应用到com.lz.smart.music
- Fri, 06 Mar 2020 15:10:25  INFO basepage.py wait_ele_visible [ line:41 ] 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:10:28  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:10:25.101994,结束时间为:2020-03-06 15:10:28.119543,一共等待耗时为:0:00:03.017549
- Fri, 06 Mar 2020 15:10:28  INFO basepage.py get_element [ line:95 ] 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:10:28  INFO basepage.py click_element [ line:155 ] 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
- Fri, 06 Mar 2020 15:10:31  INFO home_page.py target_click [ line:56 ] 单手点击
- Fri, 06 Mar 2020 15:10:31  INFO basepage.py wait_ele_visible [ line:41 ] 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
- Fri, 06 Mar 2020 15:10:33  INFO basepage.py wait_ele_visible [ line:55 ] 等待结束. 开始时间为:2020-03-06 15:10:31.733718,结束时间为:2020-03-06 15:10:33.129891,一共等待耗时为:0:00:01.396173
- Fri, 06 Mar 2020 15:10:33  INFO basepage.py get_element [ line:95 ] 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
- Fri, 06 Mar 2020 15:10:33  INFO basepage.py get_element_text [ line:170 ] 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
- Fri, 06 Mar 2020 15:10:33  INFO basepage.py get_element_text [ line:180 ] 获取的文本值为:   There&#x27;s Nothing Holdin&#x27; Me Back-Shawn Mendes
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_02_songplay.py:13 ******* 正常流程：选择歌曲类型：“欧美流行” *******
-INFO     root:basepage.py:41 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:09.221277,结束时间为:2020-03-06 15:10:12.247827,一共等待耗时为:0:00:03.026550
-INFO     root:basepage.py:95 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
-INFO     root:home_page.py:56 单手点击
-INFO     root:basepage.py:41 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:15.999628,结束时间为:2020-03-06 15:10:17.788069,一共等待耗时为:0:00:01.788441
-INFO     root:basepage.py:95 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
-INFO     root:basepage.py:170 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
-INFO     root:basepage.py:180 获取的文本值为:   There&#x27;s Nothing Holdin&#x27; Me Back-Shawn Mendes
-INFO     root:basepage.py:41 点击收藏按钮 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:17.970999,结束时间为:2020-03-06 15:10:18.144942,一共等待耗时为:0:00:00.173943
-INFO     root:basepage.py:95 点击收藏按钮 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击收藏按钮: 点击&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/music_collect_btn&#x27;)&gt;元素 
-INFO     root:basepage.py:507 切换应用到com.lz.smart.music
-INFO     root:basepage.py:41 点击分类页签 : 等待&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:25.101994,结束时间为:2020-03-06 15:10:28.119543,一共等待耗时为:0:00:03.017549
-INFO     root:basepage.py:95 点击分类页签 : 查找&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素.
-INFO     root:basepage.py:155 点击分类页签: 点击&lt;(&#x27;-android uiautomator&#x27;, &#x27;new UiSelector().text(&quot;分类&quot;)&#x27;)&gt;元素 
-INFO     root:home_page.py:56 单手点击
-INFO     root:basepage.py:41 搜索的内容 : 等待&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素可见
-INFO     root:basepage.py:55 等待结束. 开始时间为:2020-03-06 15:10:31.733718,结束时间为:2020-03-06 15:10:33.129891,一共等待耗时为:0:00:01.396173
-INFO     root:basepage.py:95 搜索的内容 : 查找&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素.
-INFO     root:basepage.py:170 搜索的内容: 获取&lt;(&#x27;id&#x27;, &#x27;com.lz.smart.music:id/item_song_btn&#x27;)&gt;元素的文本内容.
-INFO     root:basepage.py:180 获取的文本值为:   There&#x27;s Nothing Holdin&#x27; Me Back-Shawn Mendes<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">ImportError while importing test module &#x27;F:\工程样机\07 自动化框架设计\代码\setting_app_auto\TestCases\Test_Search.py&#x27;.<br/>Hint: make sure your test modules/packages have valid Python names.<br/>Traceback:<br/>TestCases\Test_Search.py:6: in &lt;module&gt;<br/>    from PageObjects.HomePage import HomePage<br/>PageObjects\HomePage.py:3: in &lt;module&gt;<br/>    from PageLocators.WangLuoLoc import HomePageLoc as loc<br/><span class="error">E   ImportError: cannot import name &#x27;HomePageLoc&#x27; from &#x27;PageLocators.WangLuoLoc&#x27; (F:\工程样机\07 自动化框架设计\代码\setting_app_auto\PageLocators\WangLuoLoc.py)</span><br/></div></td></tr></tbody></table></body></html>

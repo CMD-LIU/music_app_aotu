@@ -1,6 +1,6 @@
 import logging
 from Common.basepage import BasePage
-from PageLocators.SongplayPageLoc import SongplayPageLoc as loc
+from PageLocators.LocalLoc import SongplayPageLoc as loc
 
 
 class SongplayPage(BasePage):

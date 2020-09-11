@@ -3,7 +3,7 @@ import time
 import logging
 import difflib
 
-from PageObjects.HomePage import HomePage
+from PageObjects.NetworkSetingPage import HomePage
 from PageObjects.SongplayPage import SongplayPage
 
 """
