@@ -4,7 +4,7 @@ import logging
 import difflib
 
 from PageObjects.NetworkSetingPage import HomePage
-from PageObjects.SongplayPage import SongplayPage
+from PageObjects.MemoryPage import SongplayPage
 
 """
 *用例设计人：lqw
